@@ -122,6 +122,56 @@ Here are the explanations for the solutions in this folder.
 - **Space Complexity**: O(1).
 
 ## 509A.py - Maximum in Table
+## 546A.py - Soldier and Bananas
+- **Code**: Calculates the total cost of bananas and returns the amount borrowed, if any.
+- **Time Complexity**: O(w).
+- **Space Complexity**: O(1).
+
+## 59A.py - Word
+- **Code**: Counts uppercase and lowercase letters; converts the word to the majority case.
+- **Time Complexity**: O(n).
+- **Space Complexity**: O(n).
+
+## 617A.py - Elephant
+- **Code**: Greedily subtracts 5, 4, 3, 2, or 1 to reach 0 steps.
+- **Time Complexity**: O(n).
+- **Space Complexity**: O(1).
+
+## 61A.py - Ultra-Fast Mathematician
+- **Code**: XORs two binary strings by comparing characters at each index.
+- **Time Complexity**: O(n).
+- **Space Complexity**: O(n).
+
+## 630A.py - Again Twenty Five!
+- **Code**: Prints 25 (the result of 5^n mod 100 for n >= 2).
+- **Time Complexity**: O(1).
+- **Space Complexity**: O(1).
+
+## 630C.py - Lucky Numbers
+- **Code**: Calculates the total number of lucky numbers of length up to n.
+- **Time Complexity**: O(n).
+- **Space Complexity**: O(n).
+
+## 677A.py - Vanya and Fence
+- **Code**: Counts total width needed, accounting for taller people taking 2 units of width.
+- **Time Complexity**: O(n).
+- **Space Complexity**: O(1).
+
+## 681A.py - A Good Contest
+- **Code**: Checks if any participant had a rating >= 2400 before and increased their rating after.
+- **Time Complexity**: O(n).
+- **Space Complexity**: O(1).
+
+## 688A.py - Opponents
+- **Code**: Tracks the longest streak of days where at least one opponent was not present.
+- **Time Complexity**: O(d * n).
+- **Space Complexity**: O(1).
+
+## 703A.py - Mishka and Game
+- **Code**: Simulates a game between Mishka and Chris, comparing scores each round.
+- **Time Complexity**: O(n).
+- **Space Complexity**: O(1).
+
 - **Code**: Builds a Pascal's triangle-like table and finds the maximum value.
 - **Time Complexity**: O(n^2).
 - **Space Complexity**: O(n^2).
@@ -150,4 +200,45 @@ Here are the explanations for the solutions in this folder.
 - **Code**: Maps Borze code sequences ('.', '-.', '--') to digits.
 - **Time Complexity**: O(n).
 - **Space Complexity**: O(n).
+
+
+### 705A.py
+- **Code Explanation**: Uses a dictionary to toggle between 'I hate' and 'I love' for each layer, appending 'that' between layers and 'it' at the end.
+- **Time Complexity**: O(n), where n is the input number.
+- **Space Complexity**: O(n) to build the result string.
+
+### 732A.py
+- **Code Explanation**: Simulates the number of shovels bought (starting from 1) until the total cost ends in 0 or matches the coin value `r`.
+- **Time Complexity**: O(1), as it checks at most 10 possibilities.
+- **Space Complexity**: O(1).
+
+### 734A.py
+- **Code Explanation**: Counts the occurrences of 'A' and 'D' in the input string and compares the counts to determine the winner.
+- **Time Complexity**: O(n), where n is the length of the string.
+- **Space Complexity**: O(1).
+
+### 734B.py
+- **Code Explanation**: Maximizes the sum by first taking as many "256" combinations as possible using available '2', '5', and '6' counts, then using remaining '2' and '3' for "32" combinations.
+- **Time Complexity**: O(1).
+- **Space Complexity**: O(1).
+
+### 746A.py
+- **Code Explanation**: Iterates through the number of possible compote sets (1 part lemon, 2 parts apple, 4 parts pear) and finds the maximum valid number of sets.
+- **Time Complexity**: O(min(lemons, apples/2, pears/4)).
+- **Space Complexity**: O(1).
+
+### 750A.py
+- **Code Explanation**: Calculates available time after the travel to the contest, then simulates the time required to solve problems 1 through `n`, counting how many can be solved within the limit.
+- **Time Complexity**: O(n).
+- **Space Complexity**: O(1).
+
+### 758A.py
+- **Code Explanation**: Identifies the maximum welfare value among all citizens and calculates the total welfare needed to bring everyone to that maximum.
+- **Time Complexity**: O(n).
+- **Space Complexity**: O(1).
+
+### 764A.py
+- **Code Explanation**: Generates lists of time points when the two artists paint (multiples of their respective periods) up to `z`, and then counts the common points.
+- **Time Complexity**: O(z/n + z/m).
+- **Space Complexity**: O(z/n + z/m).
 

@@ -553,3 +553,213 @@ Here are the explanations for the solutions in this folder.
 - **Time Complexity**: O(log n).
 - **Space Complexity**: O(log n).
 
+## 3794.py - Reverse Prefix
+- **Code**: Reverses the string up to the given index k.
+- **Time Complexity**: O(k).
+- **Space Complexity**: O(n).
+
+## 3838.py - Map Word Weights
+- **Code**: Calculates weighted word values and returns a string based on their modulo 26.
+- **Time Complexity**: O(n * m), where n is number of words and m is word length.
+- **Space Complexity**: O(n).
+
+## 3898.py - Find Degrees (Graph Nodes)
+- **Code**: Counts occurrences of 1s in rows of a matrix.
+- **Time Complexity**: O(n * m).
+- **Space Complexity**: O(n).
+
+## 39.py - Combination Sum
+- **Code**: Uses backtracking to find all combinations summing to target.
+- **Time Complexity**: O(2^n).
+- **Space Complexity**: O(target).
+
+## 3925.py - Concat With Reverse
+- **Code**: Concatenates array with its reversed version.
+- **Time Complexity**: O(n).
+- **Space Complexity**: O(n).
+
+## 3945.py - Digit Frequency Score
+- **Code**: Calculates score by summing (digit * frequency).
+- **Time Complexity**: O(log n).
+- **Space Complexity**: O(1).
+
+## 4.py - Median of Two Sorted Arrays
+- **Code**: Combines, sorts, and finds the median.
+- **Time Complexity**: O(n log n) due to sorting.
+- **Space Complexity**: O(n).
+
+## 46.py - Permutations
+- **Code**: Uses backtracking to find all permutations.
+- **Time Complexity**: O(n * n!).
+- **Space Complexity**: O(n * n!).
+
+## 49.py - Group Anagrams
+- **Code**: Groups strings by sorted characters using a dictionary.
+- **Time Complexity**: O(n * m log m), where n is number of strings and m is max string length.
+- **Space Complexity**: O(n * m).
+
+## 50.py - Pow(x, n)
+- **Code**: Uses power operator.
+- **Time Complexity**: O(1) or O(log n) depending on implementation of `**`.
+- **Space Complexity**: O(1).
+
+## 58.py - Length of Last Word
+- **Code**: Splits string by spaces and returns length of last word.
+- **Time Complexity**: O(n).
+- **Space Complexity**: O(n).
+
+## 61.py - Rotate List
+- **Code**: Converts to array, rotates by moving last elements to front, and rebuilds list.
+- **Time Complexity**: O(n).
+- **Space Complexity**: O(n).
+
+## 66.py - Plus One
+- **Code**: Adds one to the number represented by digits, handling carries.
+- **Time Complexity**: O(n).
+- **Space Complexity**: O(n).
+
+## 67.py - Add Binary
+- **Code**: Converts binary strings to integers, adds, and converts back to binary.
+- **Time Complexity**: O(n).
+- **Space Complexity**: O(n).
+
+## 69.py - Sqrt(x)
+- **Code**: Iteratively finds the integer square root.
+- **Time Complexity**: O(sqrt(x)).
+- **Space Complexity**: O(1).
+
+## 7.py - Reverse Integer
+- **Code**: Reverses string representation of integer and checks bounds.
+- **Time Complexity**: O(log n).
+- **Space Complexity**: O(log n).
+
+## 70.py - Climbing Stairs
+- **Code**: Uses DP to calculate ways to reach top stair.
+- **Time Complexity**: O(n).
+- **Space Complexity**: O(n).
+
+## 704.py - Binary Search
+- **Code**: Performs standard binary search.
+- **Time Complexity**: O(log n).
+- **Space Complexity**: O(1).
+
+## 705.py - Design HashSet
+- **Code**: Uses list to implement set operations.
+- **Time Complexity**: O(n) for operations.
+- **Space Complexity**: O(n).
+
+## 706.py - Design HashMap
+- **Code**: Uses parallel lists to map keys to values.
+- **Time Complexity**: O(n) for operations.
+- **Space Complexity**: O(n).
+
+## 58.py - Length of Last Word
+- **Code**: Strips whitespace, splits the string by spaces, and returns the length of the last word.
+- **Time Complexity**: O(n).
+- **Space Complexity**: O(n).
+
+## 61.py - Rotate List
+- **Code**: Converts the linked list to an array of nodes, rotates the array, and reconstructs the list.
+- **Time Complexity**: O(n).
+- **Space Complexity**: O(n).
+
+## 75.py - Sort Colors
+- **Code**: Sorts array using nested loops (bubble sort style).
+- **Time Complexity**: O(n^2).
+- **Space Complexity**: O(1).
+
+## 771.py - Jewels and Stones
+- **Code**: Counts occurrences of jewels in stones.
+- **Time Complexity**: O(n * m), where n is stones length and m is jewels length.
+- **Space Complexity**: O(1).
+
+## 78.py - Subsets
+- **Code**: Generates all subsets iteratively.
+- **Time Complexity**: O(2^n).
+- **Space Complexity**: O(2^n).
+
+## 81.py - Search in Rotated Sorted Array II
+- **Code**: Checks if target is in the array.
+- **Time Complexity**: O(n).
+- **Space Complexity**: O(1).
+
+## 82.py - Remove Duplicates from Sorted List II
+- **Code**: Counts occurrences, removes those with >1, and rebuilds list.
+- **Time Complexity**: O(n log n).
+- **Space Complexity**: O(n).
+
+## 83.py - Remove Duplicates from Sorted List
+- **Code**: Removes duplicates and sorts the list.
+- **Time Complexity**: O(n log n).
+- **Space Complexity**: O(n).
+
+## 88.py - Merge Sorted Array
+- **Code**: Merges arrays and sorts.
+- **Time Complexity**: O((n+m)^2).
+- **Space Complexity**: O(1).
+
+## 9.py - Palindrome Number
+- **Code**: Reverses string to check palindrome.
+- **Time Complexity**: O(log n).
+- **Space Complexity**: O(log n).
+
+## 90.py - Subsets II
+- **Code**: Generates all subsets and filters duplicates.
+- **Time Complexity**: O(2^n * n log n).
+- **Space Complexity**: O(2^n * n).
+
+## 92.py - Reverse Linked List II
+- **Code**: Converts to array, reverses sub-segment, and rebuilds list.
+- **Time Complexity**: O(n).
+- **Space Complexity**: O(n).
+
+## 938.py - Range Sum of BST
+- **Code**: Performs DFS, sums values within the range.
+- **Time Complexity**: O(n).
+- **Space Complexity**: O(n) (recursion depth).
+
+## 94.py - Binary Tree Inorder Traversal
+- **Code**: Performs DFS in-order traversal.
+- **Time Complexity**: O(n).
+- **Space Complexity**: O(n).
+
+## 66.py - Plus One
+- **Code**: Simulates addition by one, handling carries from right to left.
+- **Time Complexity**: O(n).
+- **Space Complexity**: O(1).
+
+## 67.py - Add Binary
+- **Code**: Converts binary strings to integers, adds them, and converts the sum back to a binary string.
+- **Time Complexity**: O(n).
+- **Space Complexity**: O(n).
+
+## 69.py - Sqrt(x)
+- **Code**: Uses an iterative approach to find the integer square root.
+- **Time Complexity**: O(sqrt(x)).
+- **Space Complexity**: O(1).
+
+## 7.py - Reverse Integer
+- **Code**: Reverses the digits of an integer, handling negative numbers and overflow.
+- **Time Complexity**: O(log x).
+- **Space Complexity**: O(log x).
+
+## 70.py - Climbing Stairs
+- **Code**: Uses dynamic programming to calculate the number of distinct ways to climb to the top.
+- **Time Complexity**: O(n).
+- **Space Complexity**: O(n).
+
+## 704.py - Binary Search
+- **Code**: Implements a standard binary search algorithm.
+- **Time Complexity**: O(log n).
+- **Space Complexity**: O(1).
+
+## 705.py - Design HashSet
+- **Code**: Implements a hash set using a list to store elements.
+- **Time Complexity**: O(n) for `add`, `remove`, `contains` in worst case for list-based implementation.
+- **Space Complexity**: O(n).
+
+## 706.py - Design HashMap
+- **Code**: Implements a hash map using two lists for keys and values.
+- **Time Complexity**: O(n) for `put`, `get`, `remove` in worst case for list-based implementation.
+- **Space Complexity**: O(n).
+
