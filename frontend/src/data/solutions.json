@@ -1,0 +1,18 @@
+{
+  "leetcode": [
+    {"title": "1. Two Sum", "code": "def twoSum(nums, target): ...", "logic": "Uses a dictionary (d) to store numbers as keys and their indices as values. It iterates through nums, checks if target - val is in d, and returns the indices if found.", "timeComplexity": "O(n)", "spaceComplexity": "O(n)"},
+    {"title": "102. Binary Tree Level Order Traversal", "code": "def levelOrder(root): ...", "logic": "Uses a queue-based Breadth-First Search (BFS) to traverse the tree level by level.", "timeComplexity": "O(n)", "spaceComplexity": "O(n)"}
+  ],
+  "codeforces": [
+    {"title": "1015C. Songs Compression", "code": "...", "logic": "Calculates difference, sorts, and greedily reduces.", "timeComplexity": "O(n log n)", "spaceComplexity": "O(n)"},
+    {"title": "1095B. Array Stabilization", "code": "...", "logic": "Sorts and removes largest.", "timeComplexity": "O(n log n)", "spaceComplexity": "O(n)"}
+  ],
+  "atcoder": [
+    {"title": "ABC476_A", "code": "...", "logic": "Appends 'r' or 'er'.", "timeComplexity": "O(n)", "spaceComplexity": "O(n)"},
+    {"title": "ABC476_B", "code": "...", "logic": "Compares strings.", "timeComplexity": "O(n)", "spaceComplexity": "O(1)"}
+  ],
+  "codechef": [
+    {"title": "BRBO.PY", "code": "...", "logic": "DP for matrix chain.", "timeComplexity": "O(n^3)", "spaceComplexity": "O(n^2)"},
+    {"title": "BSSEA.PY", "code": "...", "logic": "Finds closest to mean.", "timeComplexity": "O(n log n)", "spaceComplexity": "O(n)"}
+  ]
+}
